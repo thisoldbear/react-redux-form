@@ -1,0 +1,33 @@
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form * {
+  display: block;
+  width: 300px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.form-field {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.has-error > input {
+  border: 1px solid red;
+}
+
+.has-error .text-help {
+  color: red;
+}
+
+.has-warning > input {
+  border: 1px solid orange;
+}
+
+.has-warning .text-help {
+  color: orange;
+}
